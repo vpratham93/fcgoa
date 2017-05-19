@@ -7,7 +7,34 @@ font-weight: lighter;
 overflow-x: hidden;
 width:100%;
 }
+.icon-bar {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition:0.5s;
+}
 
+.change #one{
+
+    transform: rotate(-45deg) translate(-5px, 5px) ;
+
+}
+
+.change #two {opacity: 0;}
+
+.change #three{
+
+    transform: rotate(45deg) translate(-6px, -6px) ;
+}
+
+
+
+#content
+{
+
+margin:auto;
+}
 
 h6
 {
@@ -24,6 +51,7 @@ h2
 {
 	
 }
+
 
 
 .gallery1
@@ -67,24 +95,25 @@ line-height: 10px;
 .navbar1
 {
 	background-color:white;
-	border:trasparent;
-	overflow:hidden;
+	
 }
+
+
+.navbar1 .navbar-toggle
+{
+	margin-right:20px;
+
+}
+
 
 
 .navbar2
 {
 	background:#121b65;
-	padding-top:15px;
-    margin-bottom:-20px;	
-}
 
 
-.navbar2 .nav .navbar-nav
-{
-	border-bottom: 5px solid #ff7418;
-	
 }
+
 
 
 .navbar2 .navbar-nav li a
@@ -95,81 +124,38 @@ line-height: 10px;
 	font-family: 'Squada One', cursive;
 }
 
-.navbar2 .navbar-nav
+.navbar2 .nav .navbar-nav
 {
-	margin-top: -32px;
+
 	overflow:hidden;
-width:auto;
-
+    height:75px;
+     
 }
 
-.navbar2 .navbar-nav li
+.navbar2 .navbar-nav li a
 {
-	margin-top:2px;
-	padding-top:15px;
-	height:75px;
-}
-
-.navbar2 .navbar-nav li:hover
-{
-	margin-bottom:-20px;
-	 background-color: #ff7418;
-}
-
-.navbar2 .navbar-nav .active 
-{
-	 background-color: #ff7418;
-	 height:75px;
-
-}
-
-.navbar2 .navbar-nav li a:hover 
-{
-	  background-color: #ff7418;
-	  height:75px;
-
-}
-
-
-.navbar2 .navbar-nav li :visited
-{
-	  background-color: #ff7418;
-height:100px;
-margin:10px;
-
-}
-
-
-.navbar2 .navbar-nav li a:active
-{
-	  background-color: #ff7418;
 height:75px;
+padding-top:30px;
+}
 
+.navbar2 .navbar-nav li a:hover
+{
+background-color: #ff7418;
+}
+
+ 
+.navbar2 .navbar-nav li :focus
+{
+background-color: #ff7418;
 }
 
 
-  .navbar2 .navbar-nav a:hover {
-
-    color: #fff;
-    background-color: #ff7418;
-	
+.active
+{
+	 background-color: #ff7418;
 }
 
 
-
-
-.navbar .nav > li:hover> a, .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
-    
-    color: #fff;
-    background-color: background-color: #ff7418;
-   
-}
-
-
-.nav-pills > li > a:hover, .nav-pills > .active > a, .nav-pills > .active > a:hover, .nav-pills > .active > a:focus {
-   background-color: #ff7418;
-    color: #fff;
-}
 
 
 .navbar2 .container .icon-bar
@@ -201,8 +187,7 @@ height:75px;
 
 #gallery
 {
-	width:1200px;
-	height:1201px;
+	
 	border-top:1px solid red;
 	margin:auto;
 	
@@ -217,10 +202,10 @@ height:75px;
 	font-family: 'Squada One', cursive;
 }
 
-.latestnews .container
+#latestnews .container
 {
-	width:1200px;
-	height:1200px;
+
+	border:2px solid blue;
 	margin:auto;
 }
 
@@ -242,7 +227,15 @@ height:75px;
 
 .form-inline
 {
+  
 	float:right;
+	border:2px solid red;
+}
+
+
+.form-inline label
+{
+width:127px;
 }
 
 .form-control
@@ -253,24 +246,17 @@ height:75px;
 
 .form-inline .btn
 {
+	
 	height:45px;
-
-	margin-left:20px;
+	margin-left:15px;
 }
 
 .form-inline #btn
 {
 	height:45px;
-    width:81px;
-	margin-left:20px;
-}
+   	margin-right:-12px;
 
-.btn-defualt
-{
-	width:140px;
-	height:45px;
 }
-
 
 .form-inline .form-group h3
 {
@@ -414,14 +400,6 @@ background-color:#1c1947;
 
 
 
-.gallery
-{
-	width: 1200px;
-    margin: auto;
-}
-
-
-
 @media only screen and (max-width:1200px)
 
 {
@@ -437,22 +415,9 @@ background-color:#1c1947;
 }
 
 
-
-
-@media only screen and (max-width:768px) 
-{
-footer .footer-menu a
-{
-	display:block;
-	
-}
-
-footer
+@media only screen (max-width:768px) 
 {
 
-height:250px;	
-padding-right:30px;
-}
 
 
 }
@@ -464,29 +429,43 @@ padding-right:30px;
 
 @media only screen and (max-width:480px)
 {
+
+
+.main
+{
+	width:300px;
+	margin:auto;
+}
+
+.row-centered
+{
+	width:100%;
+}
+
+.heading
+{
+	margin:auto;
+}
+
+.form-inline
+{
+	width:100%;
+	margin-left:20px;
+}
+
 .navbar2 .navbar-nav
 {
 	margin:20px;
 	height:800px;
 }
 
-
-.form-control
-{
-	margin-right:50px;
-    width:90%;
-    margin-bottom:20px;
-}
-
 .btn
 {
-width:70%
+
+	margin-top:20px;
+
 }
 
-#form
-{
-	margin:auto;
-}
 
 
 .navbar2 .navbar-nav li
@@ -495,41 +474,6 @@ width:70%
 	margin-top:50px;
 }
 
-
-
-#latestnews .container
-{
-	margin-right:80px;
-		width:100%;
-	float:center-right;
-}
-
-
-#btn
-{
-
-float:right;
-margin-right: 90px;
-margin-top: 20px;
-}
-
-
-#latestnews 
-{
-	margin:90px;
-}
-
-
-
-.form-group label
-{
-	margin-left:40px;
-}
-
-.heading
-{
-	margin:auto;
-}
 
 
 .social-list
@@ -546,7 +490,6 @@ margin-left:-40px;
 .social-list li a
 {
 	display:inline;
-
 }
 
 footer
@@ -562,13 +505,12 @@ footer .footer-menu a
 	
 }
 
-
-
-
 footer .footer-menu li
 {
 	display:inline;
 }
+
+
 }
 
 
@@ -578,19 +520,28 @@ footer .footer-menu li
 @media only screen and (max-width:320px)
 {
 
+
+.main
+{
+	margin:auto;
+	width:200px;
+}
+
+
+.btn
+{
+
+	width:100px;
+
+}
+
+
+
 .navbar2 .navbar-nav
 {
 	margin:20px;
 	height:800px;
 }
-
-
-#form
-{
-	width:80%;
-}
-
-
 
 .navbar2 .navbar-nav li
 {
@@ -598,17 +549,6 @@ footer .footer-menu li
 	margin-top:50px;
 }
 
-#latestnews 
-{
-	margin:50px;
-}
-
-
-
-.form-control
-{
-margin-left:20px;
-}
 
 .social .social-list
 {
@@ -628,6 +568,7 @@ height:250px;
 padding-right:30px;
 }
 
+
 footer .footer-menu a
 {
 	display:block;
@@ -641,51 +582,4 @@ footer .footer-menu li
 }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
