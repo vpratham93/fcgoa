@@ -423,10 +423,6 @@ background-color:#1c1947;
 }
 
 
-
-
-
-
 @media only screen and (max-width:480px)
 {
 
@@ -492,6 +488,20 @@ margin-left:-40px;
 	display:inline;
 }
 
+
+#btn
+{
+width:50px;
+margin-left:80px;
+}
+
+.btn
+{
+width:200px;
+margin:auto;
+}
+
+
 footer
 {
 
@@ -527,15 +537,17 @@ footer .footer-menu li
 	width:200px;
 }
 
-
 .btn
 {
-
-	width:100px;
-
+width:100px;
+margin:auto;
 }
 
-
+#btn
+{
+width:50px;
+margin-left:40px;
+}
 
 .navbar2 .navbar-nav
 {
