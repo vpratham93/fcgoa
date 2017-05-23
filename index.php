@@ -1,33 +1,31 @@
-<?php get_header(); ?>
-	
-
+<?php get_header();  ?>
 <div class="container">
 
         <div class="row">
             <div>
                 
-                <h3>
-                  
-                </h3>
-                <main>
                         <?php  
                             if (have_post()) :
                                 while (have_post()) :
-                                    the_post();
-                                        the_content();
-                                endwhile;
-                            endif;
+                                    the_post();?>
+                                     <h2><?php the_title(); ?></h2>
+
+                                     <?php the_content();?>
+                               <?php endwhile;
+
+                                    else :
+
+                                    	echo '<p>No Content Found</p>';
+
+                                    endif; 
+                                ?>
         
-                        ?>
                 
-                </main>
             </div>
             
         </div>
         <!-- /.row -->
 
     </div>
-
-
-
-<?php get_footer(); ?>
+<?php
+get_footer();  ?>
