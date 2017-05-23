@@ -147,12 +147,14 @@ background-color: #ff7418;
 .navbar2 .navbar-nav li :focus
 {
 background-color: #ff7418;
+height:75px;
 }
 
 
 .active
 {
 	 background-color: #ff7418;
+	 height:75px;
 }
 
 
@@ -166,7 +168,7 @@ background-color: #ff7418;
 
 .navbar2 .navbar-toggle
 {
-	border: 2px solid white;
+
 	margin-bottom: 20px;
 }
 
@@ -220,16 +222,16 @@ background-color: #ff7418;
 	border-bottom: 5px solid orange;
 	width:140px;
 	font-family: 'Squada One', cursive;
-	;	
+	margin-left: 10px;	
 }
 
 
 
 .form-inline
 {
-  
+    margin-right:10px;
 	float:right;
-	border:2px solid red;
+
 }
 
 
@@ -411,14 +413,124 @@ background-color:#1c1947;
 @media only screen and (max-width:992px) 
 {
 
+footer
+{
+
+height:250px;	
+padding-right:30px;
+}
+
+footer .footer-menu a
+{
+	display:block;
+	
+}
+
+footer .footer-menu li
+{
+	display:inline;
+}
 
 }
 
 
-@media only screen (max-width:768px) 
+
+
+
+
+@media only screen and (max-width:767px)
 {
 
 
+.main
+{
+	width:300px;
+	margin:auto;
+}
+
+.row-centered
+{
+	width:100%;
+}
+
+.heading
+{
+	margin:auto;
+}
+
+.form-inline
+{
+	width:100%;
+	margin-left:20px;
+}
+
+.navbar2 .navbar-nav
+{
+	margin:20px;
+	height:800px;
+}
+
+
+.form-control
+{
+margin:auto;
+}
+
+.navbar2 .navbar-nav li
+{
+	height:50px;
+	margin-top:50px;
+}
+
+
+
+.social-list
+{
+margin-left:-40px;
+}
+
+
+.social .social-list
+{
+	margin-top:30px;
+}
+
+.social-list li a
+{
+	display:inline;
+}
+
+
+#btn
+{
+width:50px;
+margin-left:90px;
+}
+
+.btn
+{
+margin-top:20px;
+width:200px;
+margin:auto;
+}
+
+footer
+{
+
+height:250px;	
+padding-right:30px;
+}
+
+footer .footer-menu a
+{
+	display:block;
+	
+}
+
+footer .footer-menu li
+{
+	display:inline;
+}
 
 }
 
@@ -455,14 +567,11 @@ background-color:#1c1947;
 	height:800px;
 }
 
-.btn
+
+.form-control
 {
-
-	margin-top:20px;
-
+margin:auto;
 }
-
-
 
 .navbar2 .navbar-nav li
 {
@@ -492,11 +601,12 @@ margin-left:-40px;
 #btn
 {
 width:50px;
-margin-left:80px;
+margin-left:90px;
 }
 
 .btn
 {
+margin-top:20px;
 width:200px;
 margin:auto;
 }
@@ -531,22 +641,29 @@ footer .footer-menu li
 {
 
 
+.active
+{
+	 background-color: #ff7418;
+	 height:75px;
+}
+
 .main
 {
 	margin:auto;
-	width:200px;
+	width:250px;
+
 }
 
 .btn
 {
-width:100px;
+width:160px;
 margin:auto;
 }
 
 #btn
 {
-width:50px;
-margin-left:40px;
+
+margin-left:70px;
 }
 
 .navbar2 .navbar-nav
