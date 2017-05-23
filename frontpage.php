@@ -1,5 +1,12 @@
-<?php get_header(); ?>
-	<div class="container">    
+<?php /* Front Page Templet */
+get_header();
+?>
+
+
+    
+
+
+<div class="container">    
 <?php /* main body vontent having images post titles and description */ ?>
             
     <div class="col-xs-12">
@@ -8,10 +15,10 @@
                     while (have_posts()) :  
                         the_post();?>
                             
-                            <artical>
-                                <span  class="col-xs-12 col-md-4">
+                            <article>
+                                <span class="col-xs-12 col-md-4">
                                 <a href="#">
-                                    <img class="Rectangle-7-copy-4 img-responsive" src="<?php bloginfo('template_url') ?>" alt="">
+                                    <img class="Rectangle-7-copy-4 img-responsive" src="http://localhost/wordpress/wp-content/uploads/2017/05/Portfolio01.png" alt="">
                                 </a>
                                     <?php the_time('d F Y'); ?>
                                     <h3 style="margin-top: 1%;">
@@ -23,10 +30,15 @@
                                     <?php
                                 
                                     endwhile;
+
+                                    else :
+
+                                    	echo '<p>No Content Found</p>';
+
                                     endif; 
                                 ?>
                                     
-                            </artical>
+                            </article>
         <br><br>
 
                         </div>
@@ -34,7 +46,6 @@
 </div>
 		  
 
-
-
-
-<?php get_footer(); ?>
+<?php 
+get_footer();
+?>
