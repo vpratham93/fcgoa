@@ -1,0 +1,500 @@
+
+.navbar1
+{
+	background-color:white;
+	margin:20px;
+}
+
+
+
+
+.navbar1 .navbar-nav  li 
+{
+display:inline;
+margin:20px;
+
+}
+
+.navbar1 .navbar-nav  li a
+{
+text-decoration:none;
+}
+
+
+.navbar2
+{
+	background:#121b65;
+}
+
+.navbar2 .navbar-nav
+{
+height:75px;
+padding-top:22px;
+
+}
+
+.navbar2  li
+{
+
+display:inline;
+margin:10px;
+}
+
+.navbar2 .navbar-nav  li a
+{
+text-decoration:none;
+padding-left:5px;
+padding-right:5px;
+padding-top:27px;
+padding-bottom:27px;
+}
+
+
+.active
+{
+	 background-color: #ff7418;
+	 height:75px;
+}
+
+.heading
+{
+	color: #060e57;
+    line-height: 32px;
+	margin-top:32px;
+	font-size:28px;
+	font-weight:Bold;
+	border-bottom: 5px solid orange;
+	width:140px;
+	font-family: 'Squada One', cursive;
+	margin-left: 25px;	
+}
+
+
+
+.form-inline
+{
+    margin-right:25px;
+	float:right;
+    margin-bottom:50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:1200px)
+
+{
+	
+
+}
+
+
+@media only screen and (max-width:992px) 
+{
+.main
+{
+	width:300px;
+	margin:auto;
+}
+
+.row-centered
+{
+	width:100%;
+}
+
+.heading
+{
+	margin:auto;
+}
+
+.form-inline
+{
+	width:100%;
+	margin-left:20px;
+}
+
+.navbar2 .navbar-nav
+{
+	margin:20px;
+	height:800px;
+}
+
+
+.form-control
+{
+margin:auto;
+}
+
+.navbar2 .navbar-nav li
+{
+	height:50px;
+	margin-top:50px;
+}
+
+
+
+.social-list
+{
+margin-left:-40px;
+}
+
+
+.social .social-list
+{
+	margin-top:30px;
+}
+
+.social-list li a
+{
+	display:inline;
+}
+
+
+#btn
+{
+width:50px;
+margin-left:90px;
+}
+
+.btn
+{
+margin-top:20px;
+width:200px;
+margin:auto;
+}
+
+footer
+{
+width:720px;
+height:400px;	
+
+}
+
+footer .footer-menu a
+{
+	display:block;
+	padding-right:80px;
+}
+
+footer .footer-menu li
+{
+	display:inline;
+}
+
+}
+
+
+
+@media only screen and (max-width:767px)
+{
+
+.main
+{
+	width:300px;
+	margin:auto;
+}
+
+.row-centered
+{
+	width:100%;
+}
+
+.heading
+{
+	margin:auto;
+}
+
+.form-inline
+{
+	width:100%;
+	margin-left:20px;
+}
+
+.navbar2 .navbar-nav
+{
+	margin:20px;
+	height:800px;
+}
+
+
+.form-control
+{
+margin:auto;
+}
+
+.navbar2 .navbar-nav li
+{
+	height:50px;
+	margin-top:50px;
+}
+
+
+
+.social-list
+{
+margin-left:-40px;
+}
+
+
+.social .social-list
+{
+	margin-top:30px;
+}
+
+.social-list li a
+{
+	display:inline;
+}
+
+
+#btn
+{
+width:50px;
+margin-left:90px;
+}
+
+.btn
+{
+margin-top:20px;
+width:200px;
+margin:auto;
+}
+
+footer
+{
+
+height:250px;	
+padding-right:30px;
+}
+
+footer .footer-menu a
+{
+	display:block;
+	
+}
+
+footer .footer-menu li
+{
+	display:inline;
+}
+}
+
+
+
+
+
+@media only screen and (max-width:480px)
+{
+
+
+.main
+{
+	width:300px;
+	margin:auto;
+}
+
+.row-centered
+{
+	width:100%;
+}
+
+.heading
+{
+	margin:auto;
+}
+
+.form-inline
+{
+	width:100%;
+	margin-left:20px;
+}
+
+.navbar2 .navbar-nav
+{
+	margin:20px;
+	height:800px;
+}
+
+.btn
+{
+
+	margin-top:20px;
+
+}
+
+
+
+.navbar2 .navbar-nav li
+{
+	height:50px;
+	margin-top:50px;
+}
+
+
+
+.social-list
+{
+margin-left:-40px;
+}
+
+
+.social .social-list
+{
+	margin-top:30px;
+}
+
+.social-list li a
+{
+	display:inline;
+}
+
+
+#btn
+{
+width:50px;
+margin-left:80px;
+}
+
+.btn
+{
+width:200px;
+margin:auto;
+}
+
+
+footer
+{
+
+height:250px;	
+padding-right:30px;
+}
+
+footer .footer-menu a
+{
+	display:block;
+	
+}
+
+footer .footer-menu li
+{
+	display:inline;
+}
+
+
+}
+
+
+
+
+
+@media only screen and (max-width:320px)
+{
+
+.form-inline
+{
+margin:auto;
+}
+
+.active
+{
+	 background-color: #ff7418;
+	 height:75px;
+}
+
+.main
+{
+	margin:auto;
+	width:200px;
+}
+
+.btn
+{
+margin:10px;
+}
+
+
+.navbar1 .navbar-toggle
+{
+margin-right:-5px;
+}
+
+.navbar1 .navbar-nav
+{
+overflow-y:hidden;
+overflow-X:hidden;
+width:160px;
+height:300px;
+}
+
+
+.navbar1 .navbar-nav li a
+{
+display:block;
+margin-top:50px;
+margin-left:20px;
+}
+
+
+.navbar2 .navbar-nav
+{
+overflow-y:hidden;
+overflow-X:hidden;
+width:130px;
+height:600px;
+}
+
+
+.navbar2 .navbar-nav li a
+{
+display:block;
+width:120px;
+}
+
+.social
+{
+width:320px;	
+}
+
+.social .social-list
+{
+	margin-top:30px;
+}
+
+.social-list li a
+{
+	display:inline;
+
+}
+
+footer
+{
+width:350px;	
+height:300px;	
+padding-right:100px;
+}
+
+
+footer .footer-menu a
+{
+	display:block;
+	
+}
+
+
+footer .footer-menu li
+{
+	display:inline;
+}
+
+}
